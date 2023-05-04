@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.roynaldi19.picodiploma.loginwithanimation">
+    package="com.roynaldi19.dc4_02loginwithanimation">
 
     <application
         android:allowBackup="true"
