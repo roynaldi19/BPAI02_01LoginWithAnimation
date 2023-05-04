@@ -1,4 +1,4 @@
-package com.dicoding.picodiploma.loginwithanimation.model
+package com.roynaldi19.dc4_02loginwithanimation.model
 
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences

@@ -1,4 +1,4 @@
-package com.dicoding.picodiploma.loginwithanimation
+package com.roynaldi19.picodiploma.loginwithanimation
 
 import org.junit.Test
 

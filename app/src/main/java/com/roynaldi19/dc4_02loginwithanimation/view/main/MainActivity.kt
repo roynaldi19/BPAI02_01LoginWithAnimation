@@ -1,4 +1,4 @@
-package com.dicoding.picodiploma.loginwithanimation.view.main
+package com.roynaldi19.dc4_02loginwithanimation.view.main
 
 import android.content.Context
 import android.content.Intent
@@ -11,11 +11,11 @@ import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.preferencesDataStore
 import androidx.lifecycle.ViewModelProvider
-import com.dicoding.picodiploma.loginwithanimation.R
-import com.dicoding.picodiploma.loginwithanimation.databinding.ActivityMainBinding
-import com.dicoding.picodiploma.loginwithanimation.model.UserPreference
-import com.dicoding.picodiploma.loginwithanimation.view.ViewModelFactory
-import com.dicoding.picodiploma.loginwithanimation.view.welcome.WelcomeActivity
+import com.roynaldi19.picodiploma.loginwithanimation.R
+import com.roynaldi19.picodiploma.loginwithanimation.databinding.ActivityMainBinding
+import com.roynaldi19.dc4_02loginwithanimation.model.UserPreference
+import com.roynaldi19.dc4_02loginwithanimation.view.ViewModelFactory
+import com.roynaldi19.dc4_02loginwithanimation.view.welcome.WelcomeActivity
 
 private val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name = "settings")
 

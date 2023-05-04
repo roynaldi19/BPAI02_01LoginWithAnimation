@@ -1,4 +1,4 @@
-package com.dicoding.picodiploma.loginwithanimation
+package com.roynaldi19.picodiploma.loginwithanimation
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

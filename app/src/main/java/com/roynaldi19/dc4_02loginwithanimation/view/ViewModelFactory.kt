@@ -1,11 +1,11 @@
-package com.dicoding.picodiploma.loginwithanimation.view
+package com.roynaldi19.dc4_02loginwithanimation.view
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.dicoding.picodiploma.loginwithanimation.model.UserPreference
-import com.dicoding.picodiploma.loginwithanimation.view.login.LoginViewModel
-import com.dicoding.picodiploma.loginwithanimation.view.main.MainViewModel
-import com.dicoding.picodiploma.loginwithanimation.view.signup.SignupViewModel
+import com.roynaldi19.dc4_02loginwithanimation.model.UserPreference
+import com.roynaldi19.dc4_02loginwithanimation.view.login.LoginViewModel
+import com.roynaldi19.dc4_02loginwithanimation.view.main.MainViewModel
+import com.roynaldi19.dc4_02loginwithanimation.view.signup.SignupViewModel
 
 class ViewModelFactory(private val pref: UserPreference) : ViewModelProvider.NewInstanceFactory() {
 

@@ -1,9 +1,9 @@
-package com.dicoding.picodiploma.loginwithanimation.view.signup
+package com.roynaldi19.dc4_02loginwithanimation.view.signup
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.dicoding.picodiploma.loginwithanimation.model.UserModel
-import com.dicoding.picodiploma.loginwithanimation.model.UserPreference
+import com.roynaldi19.dc4_02loginwithanimation.model.UserModel
+import com.roynaldi19.dc4_02loginwithanimation.model.UserPreference
 import kotlinx.coroutines.launch
 
 class SignupViewModel(private val pref: UserPreference) : ViewModel() {
