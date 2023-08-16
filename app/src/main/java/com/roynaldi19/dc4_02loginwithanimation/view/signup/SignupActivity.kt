@@ -11,7 +11,7 @@ import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.preferencesDataStore
 import androidx.lifecycle.ViewModelProvider
-import com.roynaldi19.picodiploma.loginwithanimation.databinding.ActivitySignupBinding
+import com.roynaldi19.dc4_02loginwithanimation.databinding.ActivitySignupBinding
 import com.roynaldi19.dc4_02loginwithanimation.model.UserModel
 import com.roynaldi19.dc4_02loginwithanimation.model.UserPreference
 import com.roynaldi19.dc4_02loginwithanimation.view.ViewModelFactory
@@ -61,12 +61,15 @@ class SignupActivity : AppCompatActivity() {
                 name.isEmpty() -> {
                     binding.nameEditTextLayout.error = "Masukkan email"
                 }
+
                 email.isEmpty() -> {
                     binding.emailEditTextLayout.error = "Masukkan email"
                 }
+
                 password.isEmpty() -> {
                     binding.passwordEditTextLayout.error = "Masukkan password"
                 }
+
                 else -> {
                     signupViewModel.saveUser(UserModel(name, email, password, false))
                     AlertDialog.Builder(this).apply {

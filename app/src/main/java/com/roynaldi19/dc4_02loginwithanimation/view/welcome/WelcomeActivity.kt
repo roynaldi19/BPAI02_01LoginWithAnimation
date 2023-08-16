@@ -9,7 +9,7 @@ import android.view.View
 import android.view.WindowInsets
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
-import com.roynaldi19.picodiploma.loginwithanimation.databinding.ActivityWelcomeBinding
+import com.roynaldi19.dc4_02loginwithanimation.databinding.ActivityWelcomeBinding
 import com.roynaldi19.dc4_02loginwithanimation.view.login.LoginActivity
 import com.roynaldi19.dc4_02loginwithanimation.view.signup.SignupActivity
 

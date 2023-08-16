@@ -12,7 +12,7 @@ import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.preferencesDataStore
 import androidx.lifecycle.ViewModelProvider
-import com.roynaldi19.picodiploma.loginwithanimation.databinding.ActivityLoginBinding
+import com.roynaldi19.dc4_02loginwithanimation.databinding.ActivityLoginBinding
 import com.roynaldi19.dc4_02loginwithanimation.model.UserModel
 import com.roynaldi19.dc4_02loginwithanimation.model.UserPreference
 import com.roynaldi19.dc4_02loginwithanimation.view.ViewModelFactory
@@ -67,15 +67,19 @@ class LoginActivity : AppCompatActivity() {
                 email.isEmpty() -> {
                     binding.emailEditTextLayout.error = "Masukkan email"
                 }
+
                 password.isEmpty() -> {
                     binding.passwordEditTextLayout.error = "Masukkan password"
                 }
+
                 email != user.email -> {
                     binding.emailEditTextLayout.error = "Email tidak sesuai"
                 }
+
                 password != user.password -> {
                     binding.passwordEditTextLayout.error = "Password tidak sesuai"
                 }
+
                 else -> {
                     loginViewModel.login()
                     AlertDialog.Builder(this).apply {
@@ -83,7 +87,8 @@ class LoginActivity : AppCompatActivity() {
                         setMessage("Anda berhasil login. Sudah tidak sabar untuk belajar ya?")
                         setPositiveButton("Lanjut") { _, _ ->
                             val intent = Intent(context, MainActivity::class.java)
-                            intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK
+                            intent.flags =
+                                Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK
                             startActivity(intent)
                             finish()
                         }

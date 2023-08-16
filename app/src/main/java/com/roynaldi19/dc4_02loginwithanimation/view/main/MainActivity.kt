@@ -11,8 +11,8 @@ import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.preferencesDataStore
 import androidx.lifecycle.ViewModelProvider
-import com.roynaldi19.picodiploma.loginwithanimation.R
-import com.roynaldi19.picodiploma.loginwithanimation.databinding.ActivityMainBinding
+import com.roynaldi19.dc4_02loginwithanimation.R
+import com.roynaldi19.dc4_02loginwithanimation.databinding.ActivityMainBinding
 import com.roynaldi19.dc4_02loginwithanimation.model.UserPreference
 import com.roynaldi19.dc4_02loginwithanimation.view.ViewModelFactory
 import com.roynaldi19.dc4_02loginwithanimation.view.welcome.WelcomeActivity
